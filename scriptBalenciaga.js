@@ -24,11 +24,3 @@ for (let i = 0; i < imageUrlsBalenciaga.length; i++) {
     gallery.appendChild(imageLink);
     container.append(gallery);
 }
-for (let i = 0; i < imageUrlsBalenciaga.length; i++) {
-    const imageLink = createImageLink(
-        imageUrlsBalenciaga[i],
-        captionsBalenciaga[i] || null
-    );
-    gallery.appendChild(imageLink);
-    container.append(gallery);
-}
