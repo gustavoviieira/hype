@@ -1,5 +1,2 @@
-/images/fendi
-/images/prada
-/images/valentino
-/images/balenciaga
-*/scriptmouse.js
+ /imagens/**
+ scriptmouse.js
