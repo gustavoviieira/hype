@@ -1,7 +1,2 @@
-import script from './scriptmouse.js';
-
-document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-});
-
-images/images-ocultas
+images
+scriptmouse.js
