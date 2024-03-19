@@ -61,7 +61,7 @@ a.link button {
     width: 100%;
     border-radius: 3.6rem;
     background-color: rgba(183, 184, 177, 0);
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: Arvo, serif;
     text-transform: none;
     box-shadow: none;
@@ -70,7 +70,7 @@ a.link button {
     /* padding: 0.8rem; */
     margin: 1rem 0rem;
     /* //1.6 */
-    border: 0.2rem solid rgb(255, 255, 255);
+    border: 0.1rem solid #ffffff;
     cursor: pointer;
     transition: 0.2s;
 }
