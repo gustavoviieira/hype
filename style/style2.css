@@ -19,11 +19,10 @@ body {
     overflow: hidden auto;
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.88)),
-        url(https://images.unsplash.com/photo-1623515814166-fcdb98513d70?q=80&w=1895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    /* url(https://images.unsplash.com/photo-1605856302642-bdf3d79c4f4f?ixid=MnwxMTAwMjh8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzIwOTgxMDA&ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&fit=max&h=1080); */
+        url('/images/background.jpg')
 }
 .container {
-    height: 90%;
+    height: 100%;
     max-width: 550px;
     margin: 0 auto;
     display: flex;
@@ -41,7 +40,7 @@ header img {
     height: 12.2rem;
     /* border: solid 1px #fff; */
     border-radius: 50%;
-    margin: 3.5rem 0 0 0;
+    margin: 0 0 0 0;
     gap: 2rem;
 }
 header h1 {

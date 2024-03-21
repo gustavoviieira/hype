@@ -10,7 +10,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 8%;
+    padding: 10px 8%;
+    display: flex;
+    flex-direction: column;
 }
 .gallery {
     display: grid;
@@ -20,4 +22,21 @@
 .gallery img {
     width: 100%;
     pointer-events: none;
+}
+.btn-container{
+    padding: 10px 10px 10px 0px;
+    align-self: start;
+}
+#voltar-page{
+    text-decoration: none; 
+    padding: 5px 5px;  
+    border-radius: 3rem;
+    color: #070707;
+    font-fargb(20, 19, 19)rvo, serif;
+    text-transform: none;
+    box-shadow: none;
+    margin: 1rem 0rem;
+    border: 0.1rem solid #111010;
+    cursor: pointer;
+    transition: 0.2s;
 }
