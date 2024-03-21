@@ -74,3 +74,13 @@ const captionsLouisVuitton = [];
 for (let i = 1; i <= 92; i++) {
     captionsLouisVuitton.push("Louis Vuitton");
 }
+// Gucci
+const imageUrlsGucci = [];
+for (let i = 2; i <= 92; i++) {
+    const url = `./images/gucci/${i}.png`;
+    imageUrlsGucci.push(url);
+}
+const captionsGucci = [];
+for (let i = 1; i <= 95; i++) {
+    captionsGucci.push("Gucci");
+}
