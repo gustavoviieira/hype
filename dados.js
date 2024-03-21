@@ -66,7 +66,7 @@ for (let i = 1; i <= 63; i++) {
 
 // LouisVuitton
 const imageUrlsLouisVuitton = [];
-for (let i = 2; i <= 3; i++) {
+for (let i = 2; i <= 92; i++) {
     const url = `./images/louisVuitton/${i}.png`;
     imageUrlsLouisVuitton.push(url);
 }
