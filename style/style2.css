@@ -19,7 +19,7 @@ body {
     overflow: hidden auto;
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.88)),
-        url("/images/background.jpg");
+        url("/images/bolsaImage.png");
 }
 .container {
     height: 90%;
