@@ -19,16 +19,16 @@ body {
     overflow: hidden auto;
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.88)),
-        url('./images/background.jpg')
+        url("/images/background.jpg");
 }
 .container {
-    height: 100%;
-    max-width: 550px;
+    height: 90%;
+    max-width: 768px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    padding: 0rem 3rem 0rem 3rem;
     color: #fff;
 }
 header {
@@ -64,8 +64,8 @@ a.link button {
     font-family: Arvo, serif;
     text-transform: none;
     box-shadow: none;
-    /* font-size: 1.5rem; */
-    min-height: 6.5rem;
+    /* font-size: 2.6rem; */
+    min-height: 5.5rem;
     /* padding: 0.8rem; */
     margin: 1rem 0rem;
     /* //1.6 */
@@ -79,5 +79,26 @@ a.link button:hover {
 
 span {
     font-family: Arvo, serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
+}
+@media (max-width: 375px) {
+    .container {
+        padding: 0rem 2rem 0rem 2rem;
+    }
+    header img {
+        margin-top: 10px;
+    }
+    header h1 {
+        font-size: 1.8rem;
+    }
+    a.link button {
+        min-height: 4rem;
+        /* padding: 0.8rem; */
+        margin: 1rem 0rem;
+    }
+
+    span {
+        font-family: Arvo, serif;
+        font-size: 1.3rem;
+    }
 }
