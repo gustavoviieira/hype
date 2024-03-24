@@ -77,7 +77,11 @@ for (let i = 1; i <= 92; i++) {
 // Gucci
 const imageUrlsGucci = [];
 for (let i = 2; i <= 92; i++) {
+<<<<<<< HEAD:src/scripts/dados.js
     const url = `/src/assets/images/gucci/${i}.png`;
+=======
+    const url = `./images/gucci/${i}.png`;
+>>>>>>> 055a20f43c0c6c9229c3ab2ebf15010e7edc84e0:dados.js
     imageUrlsGucci.push(url);
 }
 const captionsGucci = [];
