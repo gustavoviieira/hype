@@ -12,7 +12,7 @@ for (let i = 1; i <= 86; i++) {
 // Fendi
 const imageUrlsFendi = [];
 for (let i = 1; i <= 56; i++) {
-    const url = `/src/assets/images/fendi/${i}.png`;
+    const url = `../assets/images/fendi/${i}.png`;
     imageUrlsFendi.push(url);
 }
 const captionsFendi = [];
