@@ -1,7 +1,7 @@
 // Prada
 const imageUrlsPrada = [];
 for (let i = 1; i <= 86; i++) {
-    const url = `/src/assets/images/prada/${i}.png`;
+    const url = `../assets/images/prada/${i}.png`;
     imageUrlsPrada.push(url);
 }
 const captionsPrada = [];
@@ -23,7 +23,7 @@ for (let i = 1; i <= 56; i++) {
 // Balenciaga
 const imageUrlsBalenciaga = [];
 for (let i = 1; i <= 86; i++) {
-    const url = `/src/assets/images/balenciaga/${i}.png`;
+    const url = `../assets/images/balenciaga/${i}.png`;
     imageUrlsBalenciaga.push(url);
 }
 const captionsBalenciaga = [];
@@ -34,7 +34,7 @@ for (let i = 1; i <= 86; i++) {
 // Valentino
 const imageUrlsValentino = [];
 for (let i = 1; i <= 57; i++) {
-    const url = `/src/assets/images/valentino/${i}.png`;
+    const url = `../assets/images/valentino/${i}.png`;
     imageUrlsValentino.push(url);
 }
 const captionsValentino = [];
@@ -45,7 +45,7 @@ for (let i = 1; i <= 57; i++) {
 //YSL
 const imageUrlsYSL = [];
 for (let i = 1; i <= 54; i++) {
-    const url = `/src/assets/images/ysl/${i}.png`;
+    const url = `../assets/images/ysl/${i}.png`;
     imageUrlsYSL.push(url);
 }
 const captionsYSL = [];
@@ -56,7 +56,7 @@ for (let i = 1; i <= 54; i++) {
 // Dior
 const imageUrlsDior = [];
 for (let i = 1; i <= 63; i++) {
-    const url = `/src/assets/images/dior/${i}.png`;
+    const url = `../assets/images/dior/${i}.png`;
     imageUrlsDior.push(url);
 }
 const captionsDior = [];
@@ -67,7 +67,7 @@ for (let i = 1; i <= 63; i++) {
 // LouisVuitton
 const imageUrlsLouisVuitton = [];
 for (let i = 2; i <= 92; i++) {
-    const url = `/src/assets/images/louisVuitton/${i}.png`;
+    const url = `../assets/images/louisVuitton/${i}.png`;
     imageUrlsLouisVuitton.push(url);
 }
 const captionsLouisVuitton = [];
@@ -77,7 +77,7 @@ for (let i = 1; i <= 92; i++) {
 // Gucci
 const imageUrlsGucci = [];
 for (let i = 2; i <= 95; i++) {
-    const url = `/src/assets/images/gucci/${i}.png`;
+    const url = `../assets/images/gucci/${i}.png`;
     imageUrlsGucci.push(url);
 }
 const captionsGucci = [];
