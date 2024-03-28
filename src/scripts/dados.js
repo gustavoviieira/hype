@@ -76,11 +76,11 @@ for (let i = 1; i <= 91; i++) {
 }
 // Gucci
 const imageUrlsGucci = [];
-for (let i = 1; i <= 95; i++) {
+for (let i = 2; i <= 95; i++) {
     const url = `../assets/images/gucci/${i}.jpg`;
     imageUrlsGucci.push(url);
 }
 const captionsGucci = [];
-for (let i = 1; i <= 95; i++) {
+for (let i = 2; i <= 95; i++) {
     captionsGucci.push("Gucci");
 }
