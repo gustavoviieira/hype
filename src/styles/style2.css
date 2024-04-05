@@ -21,7 +21,15 @@ body {
     background-image: linear-gradient(#00000066, #000000e0),
     url("https://images.unsplash.com/photo-1575202332411-b01fe9ace7a8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
-
+.arrow-redes{
+    position: absolute;
+    top: 0;
+    left: 0;
+   max-width: 25px;
+    height: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
 .container {
     height: 90%;
     max-width: 560px;
@@ -31,6 +39,7 @@ body {
     justify-content: center;
     padding: 0rem 3rem 0rem 3rem;
     color: #fff;
+    position: relative;
 }
 header {
     text-align: center;
@@ -68,9 +77,8 @@ a.link button {
     /* font-size: 2.6rem; */
     min-height: 5.5rem;
     /* padding: 0.8rem; */
-    margin: 1rem 0rem;
-    /* //1.6 */
-    border: 0.1rem solid #ffffff;
+    margin: 0.7rem 0rem;
+    border: 0.2rem solid #ffffff;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -94,6 +102,7 @@ span {
 }
 @media (max-width: 375px) {
     .container {
+        height: 90%;
         padding: 0rem 2rem 0rem 2rem;
     }
     header img {
@@ -103,9 +112,9 @@ span {
         font-size: 1.8rem;
     }
     a.link button {
-        min-height: 4rem;
+        min-height: 4.6rem;
         /* padding: 0.8rem; */
-        margin: 1rem 0rem;
+        margin: 0.7rem 0rem;
     }
 
     span {
