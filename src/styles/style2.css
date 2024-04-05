@@ -24,7 +24,7 @@ body {
 
 .container {
     height: 90%;
-    max-width: 768px;
+    max-width: 560px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -81,6 +81,16 @@ a.link button:hover {
 span {
     font-family: Arvo, serif;
     font-size: 2rem;
+}
+.container__redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-redes{
+    height: 30px;
+    width: 40px;
+    margin-top: 10px;
 }
 @media (max-width: 375px) {
     .container {
