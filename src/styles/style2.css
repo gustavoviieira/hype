@@ -28,6 +28,7 @@ body {
    max-width: 25px;
     height: auto;
     margin-top: 10px;
+    margin-left: 10px;
     cursor: pointer;
 }
 .container {
