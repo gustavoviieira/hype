@@ -24,11 +24,9 @@ body {
 .arrow-redes{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0.5;
    max-width: 25px;
     height: auto;
-    margin-top: 10px;
-    margin-left: 10px;
     cursor: pointer;
 }
 .container {
