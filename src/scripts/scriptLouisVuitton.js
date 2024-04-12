@@ -1,6 +1,3 @@
-const container = document.querySelector(".container");
-const gallery = document.querySelector(".gallery");
-
 function createImageLink(imageUrl, caption) {
     const link = document.createElement("a");
     link.href = imageUrl;
@@ -16,14 +13,26 @@ function createImageLink(imageUrl, caption) {
     return link;
 }
 
-for (let i = 0; i < imageUrlsLouisVuitton.length; i++) {
-    const imageLink = createImageLink(
-        imageUrlsLouisVuitton[i],
-        captionsLouisVuitton[i] || null
-    );
-    gallery.appendChild(imageLink);
-    container.append(gallery);
+function showImage() {
+    const container = document.querySelector(".container");
+    const gallery = document.querySelector(".gallery");
+    for (let i = 0; i < imageUrlsLouisVuitton.length; i++) {
+        const imageLink = createImageLink(
+            imageUrlsLouisVuitton[i],
+            captionsLouisVuitton[i] || null
+        );
+        gallery.appendChild(imageLink);
+        container.append(gallery);
+    }
 }
-document.getElementById("voltar-page").addEventListener("click", function () {
-    window.history.back(); // Volta para a página anterior
-});
+
+function voltaPage() {
+    document
+        .getElementById("voltar-page")
+        .addEventListener("click", function () {
+            window.history.back(); // Volta para a página anterior
+        });
+}
+
+showImage();
+voltaPage();
